@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>O que é Front-End?</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Cabeçalho -->
+  <header class="header">
+    <div class="container">
+      <h1 class="logo">Front-End</h1>
+      <nav class="nav">
+        <a href="#definicao">Definição</a>
+        <a href="#tecnologias">Tecnologias</a>
+        <a href="#exemplo">Exemplo</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Seção Principal -->
+  <section class="princ">
+    <div class="container princ-content">
+      <h2>O que é Front-End?</h2>
+      <p>A interface que conecta usuários e tecnologia.</p>
+      <a href="#definicao" class="btn">Saiba Mais</a>
+    </div>
+  </section>
+
+  <!-- Definição -->
+  <section id="definicao" class="section">
+    <div class="container">
+      <h2>Definição</h2>
+      <p>
+        Front-End é a parte do desenvolvimento web responsável pela 
+        <strong>interface gráfica</strong>, ou seja, tudo que o usuário vê e interage em um site ou aplicativo.
+      </p>
+    </div>
+  </section>
+
+  <!-- Tecnologias -->
+  <section id="tecnologias" class="section exe-tec">
+    <div class="container">
+      <h2>Tecnologias Principais</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>HTML</h3>
+          <p>Define a estrutura e o conteúdo das páginas.</p>
+        </div>
+        <div class="card">
+          <h3>CSS</h3>
+          <p>Responsável pelo estilo: cores, fontes, layout e responsividade.</p>
+        </div>
+        <div class="card">
+          <h3>JavaScript</h3>
+          <p>Traz interatividade e dinamismo para a interface.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Exemplo -->
+  <section id="exemplo" class="section">
+    <div class="container">
+      <h2>Exemplo</h2>
+      <p>
+        Este site é um exemplo prático de desenvolvimento Front-End.
+        Ele utiliza <b>HTML</b> para estruturar, <b>CSS</b> para estilizar
+        e conceitos modernos de <b>responsividade</b>.
+      </p>
+    </div>
+  </section>
+
+   <!-- Exemplos com Botões -->
+  <section id="botoes" class="section exe-tec">
+    <div class="container">
+      <h2>Exemplos de Botões com JavaScript</h2>
+      <p>Clique nos botões abaixo para ver a interação em ação:</p>
+
+      <div class="btn-grupo">
+        <button class="js-btn" onclick="mudarCor()">Mudar Cor do Fundo</button>
+        <button class="js-btn" onclick="mostrarAlerta()">Exibir Alerta</button>
+        <button class="js-btn" onclick="alterarTexto()">Mostrar/Ocultar Texto</button>
+      </div>
+
+      <p id="textoExtra" style="display:none; margin-top:20px; font-weight: bold; color:#0077cc;">
+        🎉 Surpresa! Este texto apareceu com JavaScript.
+      </p>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+
+  <!-- Rodapé -->
+  <footer class="footer">
+    <p>Feito pelo 3ºDs do colégio <a href="https://www.colegioregentefeijo.com.br/">Regente Feijó</a> | 2025</p>
+  </footer>
+</body>
+</html>
