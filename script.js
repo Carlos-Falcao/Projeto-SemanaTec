@@ -1,12 +1,11 @@
+let cor = 0
 function mudarCor(){
-    const cores = ["#a16464ff", "#858585ff", "#40b7c7ff", "#67d871ff", "#f0f0f0", "#e7c48cff"];
-    const corAleatoria = cores[Math.floor(Math.random() * cores.length)];
-    const corAtual = corAleatoria;
-    if (corAtual == corAleatoria){
-        //console.log("cor repetida");
-        document.body.style.background = corAtual;
-    } else{
-        document.body.style.background = corAtual;
+    const cores = ["#FF6347", "#FF7F50", "#FF8C00", "#FFA500", "#FF69B4", "#FF1493", "#FF4500", "#DB7093", "#E9967A", "#F08080", "#CD5C5C", "#DC143C", "#BDB76B",
+    "#BA55D3", "#DA70D6", "#C71585", "#A0522D", "#CD853F", "#D2B48C", "#BC8F8F", "#A0522D", "#f9f9f9"]; //22 CORES
+    document.body.style.background = cores[cor];
+    cor++;
+    if (cor == cores.length){
+        cor = 0;
     }
 }
 
