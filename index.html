@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>O que é Front-End?</title>
-  <link rel="stylesheet" href="style.css">
+  <link id="cssFile" rel="stylesheet" href="style.css">
 </head>
 <body>
   <!-- Cabeçalho -->
@@ -87,6 +87,16 @@
       <p id="textoExtra" style="display:none; margin-top:20px; font-weight: bold; color:#0077cc;">
         🎉 Surpresa! Este texto apareceu com JavaScript.
       </p>
+
+      <section id="alterar-css" class="section">
+        <div class="container">
+          <h2>Ativar/Desativar CSS</h2>
+          <p>Clique no botão abaixo para ver como o site fica sem o CSS aplicado:</p>
+          <div class="btn-grupo">
+            <button class="js-btn" onclick="alterarCSS()">Ativar/Desativar CSS</button>
+          </div>
+        </div>
+      </section>
     </div>
   </section>
 

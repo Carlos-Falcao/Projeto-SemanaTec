@@ -21,3 +21,12 @@ function alterarTexto(){
         texto.style.display = "none";
     }
 }
+
+function alterarCSS(){
+    const cssFile = document.getElementById("cssFile");
+    if(cssFile.disabled){
+        cssFile.disabled = false;
+    } else{
+        cssFile.disabled = true;
+    }
+}

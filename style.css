@@ -154,13 +154,9 @@ body {
 }
 
 .footer a{
-  color: #fff;
+  color: #00aaff;
   text-decoration: none;
   transition: color 0.3s;
-}
-
-.footer a:hover {
-  color: #00aaff;
 }
 
 /* Responsividade */
